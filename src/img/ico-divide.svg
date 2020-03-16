@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>ico-divide</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ico-divide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M25,16 C23.3431458,16 22,14.6568542 22,13 C22,11.3431458 23.3431458,10 25,10 C26.6568542,10 28,11.3431458 28,13 C28,14.6568542 26.6568542,16 25,16 Z M25,40 C23.3431458,40 22,38.6568542 22,37 C22,35.3431458 23.3431458,34 25,34 C26.6568542,34 28,35.3431458 28,37 C28,38.6568542 26.6568542,40 25,40 Z M6,23 L44,23 L44,27 L6,27 L6,23 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>
