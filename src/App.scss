@@ -1,0 +1,135 @@
+.App {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/backsun.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  @media (max-width: 600px) {
+    padding: 10px 0;
+    height: 90vh;
+    background-image: none;
+  }
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 3px;
+  background: linear-gradient(20deg,rgb(216, 216, 216), rgb(238, 238, 238), rgb(184, 184, 184));
+  box-shadow: 1px 2px 0 rgba(172, 172, 172, 0.863), -2px -2px 0px rgba(245, 245, 245, 0.897), 0 70px 100px rgba(50, 20, 10, .5);
+
+  @media (max-width: 600px) {
+    margin: 5px;
+    width: 100%;
+    height: 100%
+  }
+}
+
+.brand {
+  font-size: 10px;
+  color: rgba(112, 112, 112, 0.644);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.keypad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  flex-grow: 1;
+
+  @media (max-width: 600px) {
+  }
+  
+  
+    &__row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 0;
+    }
+    
+    &--key {
+      font-size: 16px;
+      line-height: 16px;
+      width: 50px;
+      height: 50px;
+      background-color: #eee;
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      border-radius: 50%;
+      border: none;
+      box-shadow: 0px -3px 5px white, 0 4px 7px darkgrey;
+
+      @media (max-width: 600px) {
+        width: 80px;
+        height: 102px;
+        border-radius: 0;
+        margin-right: 0;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: none;
+      }
+      
+      &:hover {
+        color: white;
+        background-color: darkorange;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.operation-key {
+  background-color: rgb(161, 161, 161);
+  color: white;
+  font-size: 24px;
+  padding: 0;
+
+  &:hover {
+    background-color: rgb(177, 67, 17);
+  }
+}
+
+.btn-key {
+  border: none;
+}
+
+.display {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 2px;
+  height: 30px;
+  background: linear-gradient(rgb(100, 100, 100), rgb(44, 44, 44));
+  color: springgreen;
+  margin-bottom: 50px;
+  padding: 10px;
+  box-shadow: inset 0 10px 10px #222;
+
+  @media (max-width: 600px) {
+    height: 100px;
+    font-size: 72px;
+    padding: 20px 10px;
+    margin-bottom: 100px;
+  }
+}
