@@ -8,11 +8,11 @@ In the project I have used a few simplifications which ought to be considered:
 * The result of last operation cannot be the first input to the new operation. Always a new expression is started.
 
 
-### `yarn add`
+#### `yarn`
 
 Clone this git and run `yarn add`. This will install all the necessary dependencies.
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
